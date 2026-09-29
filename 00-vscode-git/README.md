@@ -13,3 +13,12 @@ This repository documents my learning journey from RPA Developer to RPA Solution
 - Solution Architecture
 - Cloud & DevOps
 - Security
+
+## Progress
+
+- [x] VS Code setup
+- [x] Git installation
+- [x] Local repository initialization
+- [x] First commit
+- [x] GitHub remote connection
+- [ ] Git daily workflow
