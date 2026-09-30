@@ -21,5 +21,5 @@ This repository documents my learning journey from RPA Developer to RPA Solution
 - [x] Local repository initialization
 - [x] First commit
 - [x] GitHub remote connection
-- [x] Git daily workflow - completed on main branch
+- [x] Git daily workflow - completed on feature branch
 
