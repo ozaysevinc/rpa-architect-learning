@@ -23,3 +23,6 @@ This repository documents my learning journey from RPA Developer to RPA Solution
 - [x] GitHub remote connection
 - [x] Git daily workflow - completed on feature branch
 
+## Remote Practice
+
+This line was added directly from GitHub to practice fetch and pull.
