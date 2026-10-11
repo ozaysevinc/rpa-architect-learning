@@ -1,0 +1,7 @@
+{
+    "bot_name": "PaymentBot",
+    "version": 1.0,
+    "is_active": true,
+    "max_retries": 3,
+    "environment": "PROD"
+}
