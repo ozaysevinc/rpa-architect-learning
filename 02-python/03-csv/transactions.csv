@@ -1,0 +1,5 @@
+TransactionID,Customer,Amount,Status
+1001,Ahmet,1500,Success
+1002,Ayşe,2500,Failed
+1003,Mehmet,3200,Success
+1004,Zeynep,1800,Failed
