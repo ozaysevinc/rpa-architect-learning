@@ -16,3 +16,17 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# ==========================================
+# GENERATED RPA LOG FILES
+# ==========================================
+
+02-python/02-file-handling/bot_log.txt
+02-python/02-file-handling/execution_log.txt
+
+# ==========================================
+# GENERATED CSV REPORTS
+# ==========================================
+
+02-python/03-csv/failed_transactions.csv
+02-python/03-csv/transaction_summary.txt
