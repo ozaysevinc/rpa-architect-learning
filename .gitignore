@@ -30,3 +30,7 @@ Thumbs.db
 
 02-python/03-csv/failed_transactions.csv
 02-python/03-csv/transaction_summary.txt
+
+# Python log files
+*.log
+*.log.*
