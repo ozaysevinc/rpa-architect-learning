@@ -1,0 +1,8 @@
+2026-10-12 19:54:30 - INFO - RPA bot started.
+2026-10-12 19:54:30 - INFO - Fetching customer 101
+2026-10-12 19:54:30 - INFO - API status code: 200
+2026-10-12 19:54:30 - INFO - Customer 101 found.
+2026-10-12 19:54:30 - INFO - Fetching customer 999
+2026-10-12 19:54:30 - INFO - API status code: 404
+2026-10-12 19:54:30 - WARNING - Customer 999 not found.
+2026-10-12 19:54:30 - INFO - RPA bot finished.
