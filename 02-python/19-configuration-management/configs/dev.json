@@ -1,0 +1,6 @@
+{
+    "bot_name": "Finance Bot DEV",
+    "api_url": "https://dev.example.com/api",
+    "max_retries": 1,
+    "timeout": 10
+}

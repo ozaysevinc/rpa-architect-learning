@@ -1,0 +1,5 @@
+{
+    "bot_name": "Finance Bot DEV",
+    "max_retries": 1,
+    "timeout": 10
+}
