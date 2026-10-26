@@ -1,0 +1,67 @@
+{
+    "summary": {
+        "execution_id": "6dfa816d-f397-45ef-92db-814e889fe48f",
+        "created_at": "2026-10-26T20:49:58.984144Z",
+        "total_orders": 4,
+        "valid_orders": 2,
+        "invalid_orders": 2
+    },
+    "valid_orders": [
+        {
+            "order_id": "550e8400-e29b-41d4-a716-446655440000",
+            "customer_name": "Ahmet",
+            "product_name": "Laptop",
+            "quantity": 2,
+            "unit_price": 25000.0,
+            "total_price": 50000.0
+        },
+        {
+            "order_id": "123e4567-e89b-42d3-a456-426614174000",
+            "customer_name": "Zeynep",
+            "product_name": "Monitor",
+            "quantity": 1,
+            "unit_price": 8000.0,
+            "total_price": 8000.0
+        }
+    ],
+    "invalid_orders": [
+        {
+            "original_data": {
+                "order_id": "6ba7b810-9dad-41d1-80b4-00c04fd430c8",
+                "customer_name": "Ayşe",
+                "product_name": "Mouse",
+                "quantity": -3,
+                "unit_price": 500
+            },
+            "errors": [
+                {
+                    "type": "greater_than",
+                    "loc": [
+                        "quantity"
+                    ],
+                    "msg": "Input should be greater than 0",
+                    "input": -3
+                }
+            ]
+        },
+        {
+            "original_data": {
+                "order_id": "invalid-order-id",
+                "customer_name": "Mehmet",
+                "product_name": "Keyboard",
+                "quantity": 1,
+                "unit_price": 1500
+            },
+            "errors": [
+                {
+                    "type": "uuid_parsing",
+                    "loc": [
+                        "order_id"
+                    ],
+                    "msg": "Input should be a valid UUID, invalid character: found `i` at 0",
+                    "input": "invalid-order-id"
+                }
+            ]
+        }
+    ]
+}
