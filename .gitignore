@@ -1,21 +1,36 @@
-# Environment variables / secrets
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+
 .env
 .env.*
+!.env.example
 
-# Python virtual environments
+
+# ==========================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+
 .venv/
 venv/
 
-# Python cache
+
+# ==========================================
+# PYTHON CACHE
+# ==========================================
+
 __pycache__/
 *.pyc
 
-# VS Code local settings
-.vscode/
 
-# OS files
+# ==========================================
+# VS CODE / OS FILES
+# ==========================================
+
+.vscode/
 .DS_Store
 Thumbs.db
+
 
 # ==========================================
 # GENERATED RPA LOG FILES
@@ -24,26 +39,14 @@ Thumbs.db
 02-python/02-file-handling/bot_log.txt
 02-python/02-file-handling/execution_log.txt
 
+*.log
+*.log.*
+**/logs/
+
+
 # ==========================================
 # GENERATED CSV REPORTS
 # ==========================================
 
 02-python/03-csv/failed_transactions.csv
 02-python/03-csv/transaction_summary.txt
-
-# Python log files
-*.log
-*.log.*
-
-# ==========================================
-# Python Virtual Environment
-# ==========================================
-
-.venv/
-
-# ==========================================
-# Python Cache
-# ==========================================
-
-__pycache__/
-*.pyc
